@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4cd253bc7ebe3a448f880c1c519f907, type: 3}
+  m_Name: TestStruct
+  m_EditorClassIdentifier: 
+  StructureTexture: {fileID: 2800000, guid: 1c3c3e9bb417c224fa95107e5a744fba, type: 3}
+  LayoutEncoding: 'TT_TT
+
+    TTT#T
+
+    ?TTTT
+
+    ?T_TT
+
+    ?T_TT'
+  structTemplate: {fileID: 4225167003543754801, guid: d08a91cdec0642b419c8f3b403a791ea, type: 3}
+  usedBots:
+  - Symbol: 84
+    Bot: {fileID: 11400000, guid: 5d90938182c5c3442898706a0846fd01, type: 2}

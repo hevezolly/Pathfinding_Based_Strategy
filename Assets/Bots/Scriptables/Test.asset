@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b14b132e6386748b37f64e534af629, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: e575f6834330a2c4fb43d0fba7f92b0e, type: 3}
+  botObject: {fileID: 549237574073812856, guid: 8fd2b3b99a3e28048aaaa9630c2329fa, type: 3}
