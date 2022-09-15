@@ -1,17 +1,15 @@
 # Pathfinding_Based_Strategy
-Это часть проекта, которым я занимаюсь в настоящее время. Суть прототипа в реализации алгоритма поиска путей для необычного способа перемещения агентов:
 
-![navigationShwocase](https://user-images.githubusercontent.com/28929816/152700643-815b2076-f892-44f0-8f12-9101071397c5.gif)
+Project in progress
 
-Как видно из gif, блоки могут перемещаться только на соседнюю с занятой клеткой и делают они это только по другим таким же блокам (или непосредственно рядом с ними).
+Genre: Strategy
 
-Кроме этого, блоки могут объединяться в структуры, если их расположить правильным образом. Это обусловленно дальнейшим развитием геймплея проекта.
+Technologies:
+- Unity 2020.3
+- Unity Jobs system
+- different pathfinding strategies based on [A* Pathfinding Project](https://arongranberg.com/astar/)
 
-![structureBuilding](https://user-images.githubusercontent.com/28929816/152700601-94ab9708-54ff-4452-838d-45622bac14e8.gif)
+<img src="https://user-images.githubusercontent.com/28929816/152700643-815b2076-f892-44f0-8f12-9101071397c5.gif" height="350"/>
 
-Структуры тоже могут перемещаться, однако делают это по-иному: на каждом шаге у структуры должен быть хотябы один касающийся ее блок.
+<img src="https://user-images.githubusercontent.com/28929816/152700637-45cef43f-1daf-439c-8ac2-ef4b4eab34a0.gif" height="350"/>
 
-![structureMovement](https://user-images.githubusercontent.com/28929816/152700637-45cef43f-1daf-439c-8ac2-ef4b4eab34a0.gif)
-
-В качестве основы для алгоритма поиска путей я использовал ассет [A* Pathfinding Project](https://arongranberg.com/astar/). 
-Однако пришлось очень много добавлять, чтобы добиться желаемого результата.
